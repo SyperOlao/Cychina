@@ -5,6 +5,7 @@ class GreenBulbt : public LightBulb
 public:
 	GreenBulbt() : LightBulb() {
 		color_light = "green";
+		LightBulb::AddNumberLight();
 	}
 
 	GreenBulbt(int timeOfLight) : GreenBulbt() {
